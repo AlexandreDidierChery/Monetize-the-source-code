@@ -1,0 +1,22 @@
+HTML
+
+<p>Copyright &copy; 2021</p>
+Output: Copyright © 2021
+
+or
+
+JS
+
+<head>
+    <title>Print Special Characters using JavaScript</title>
+</head>
+<body>
+<div id="divOne" />
+<script type="text/javascript">
+    var str = "Copyright \u00A9"
+    document.getElementById('divOne').innerHTML = str;
+</script>
+</body>
+</html>
+
+Output: Copyright ©
