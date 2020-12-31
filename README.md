@@ -1,2 +1,2 @@
 # SCm
-monetize
+Domain updated
